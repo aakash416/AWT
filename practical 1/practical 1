@@ -1,0 +1,91 @@
+1.	To install and setup the HTML5 based Bootstrap framework and to deploy basic HTML elements using Bootstrap CSS. 
+Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first web sites.
+What is Bootstrap?        
+Bootstrap is a free front-end framework for faster and easier web development Responsive features: Bootstrap's responsive CSS adjusts to phones, tablets, and desktops
+Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins
+Bootstrap also gives you the ability to easily create responsive designs
+Bootstrap History
+Bootstrap was developed by Mark Otto and Jacob Thornton at Twitter, and released as an open source product in August 2011 on GitHub.
+Why Use Bootstrap?
+Advantages of Bootstrap:
+Easy to use: Anybody with just basic knowledge of HTML and CSS can start using Bootstrap
+Responsive features: Bootstrap's responsive CSS adjusts to phones, tablets, and desktops
+Mobile-first approach: In Bootstrap 3, mobile-first styles are part of the core framework
+Browser compatibility: Bootstrap is compatible with all modern browsers (Chrome, Firefox, Internet Explorer, Safari, and Opera)		
+Where to Get Bootstrap?
+There are two ways to start using Bootstrap on your own web site.
+You can:
+Download Bootstrap from getbootstrap.com
+Include Bootstrap from a CDN
+Downloading Bootstrap
+If you want to download and host Bootstrap yourself, go to getbootstrap.com, and follow the instructions there.
+
+Standard Install
+The first thing you need to do is access the getting started page on getBootstrap. Here you will notice three different download options depending on your level and skill set.
+If you’re completely new to Bootstrap, you’ll want to stick with the basic Bootstrap download. This contains compiled and minified CSS, JavaScript, and fonts. No docs or original source files are included.
+If you’re experienced using CSS pre-processors to extend the CSS language, there are two additional options available. The Source Code installation contains Source Less, JavaScript and font files. The SASS installation is Bootstrap ported from Less to Sass for easy inclusion in Rails, Compass, or Sass-only projects.
+Bootstrap Download
+Once you’ve downloaded and unpacked the compiled version of Bootstrap, you should see the following structure in the downloaded folder.
+bootstrap/
+├── css/
+│   ├── bootstrap.css
+│   ├── bootstrap.min.css
+│   ├── bootstrap-theme.css
+│   └── bootstrap-theme.min.css
+├── js/
+│   ├── bootstrap.js
+│   └── bootstrap.min.js
+└── fonts/
+    ├── glyphicons-halflings-regular.eot
+    ├── glyphicons-halflings-regular.svg
+    ├── glyphicons-halflings-regular.ttf
+    └── glyphicons-halflings-regular.woff
+This is the most basic form of Bootstrap designed for quick drop-in usage to get you started in nearly any web project. The standard template will reference the .min CSS and JS files. We recommend creating additional style sheets if you want to add modifications to the CSS.
+Source Code Download
+If you downloaded and unpacked the Bootstrap source code version, it will contain precompiled CSS, JavaScript, and font assets, along with source Less, JavaScript, and documentation. In addition to the files included in the basic download, it also includes the following:
+bootstrap/
+├── less/
+├── js/
+├── fonts/
+├── dist/
+│   ├── css/
+│   ├── js/
+│   └── fonts/
+└── docs/
+    └── examples/
+
+Creating the HTML Template
+After you’ve downloaded Bootstrap, open up your favorite text editor. Marc is using Notepad++(Windows, free) and I’m using Coda (Mac OS X). Here are some additional suggestions.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <h1>	1.	To install and setup the HTML5 based Bootstrap framework and to deploy basic HTML elements using Bootstrap CSS.</h1>
+<pre>
+Bootstrap is a free front-end framework for faster and easier web development Responsive features: Bootstrap's responsive CSS adjusts to phones, tablets, and desktops
+</pre>
+  <p>Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first web sites.</p>
+  <p>Why Use Bootstrap?</p>
+  <div class="row">
+    <div class="col-sm-4" style="background-color:lavender;">Easy to use</div>
+    <div class="col-sm-4" style="background-color:lavenderblush;">Responsive features</div>
+    <div class="col-sm-4" style="background-color:lavender;">Mobile-first approach:</div>
+  </div>
+  </div>
+</body>
+</html>
+
+Save the file as “index.html” in the same folder where you unpacked Bootstrap. Open the index.html in your favorite web browser and you should see “your web” styled.
+
+index.html (large size web browser)
+index.html (small size web browser)
+
